@@ -9,6 +9,7 @@ import (
 
 func TestWatch(t *testing.T) {
 	// Clean up testing environment
+	remove("./fixtures/input/.gitkeep")
 	remove("./fixtures/input/lol_cat.jpg")
 	remove("./fixtures/input/mona_lisa.jpg")
 	remove("./fixtures/output/image-resize_0_lol_cat.jpg")
